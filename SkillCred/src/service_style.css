@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* .imgDes {
+  margin-left: 180px;
+  overflow: hidden;
+  /* text-align: left; */
+/* width: 421.59;
+  height: 346.48;
+} */
+/* .imgDes p {
+  text-align: right;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+#specs {
+  background-color: #020211;
+}
+#ab .img {
+  align-items: center;
+}
+.btn-cool-blues {
+  background: #0c6cfd; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6dd5ed,
+    #2193b0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6dd5ed,
+    #2193b0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  border: 3px solid #eee;
+}
